@@ -7,7 +7,7 @@ and proceed with forking this repo
    * don't use TextView for persisting state of the count value
 4. Make sure the counter survives orientation changes (its value won't reset or change on screen rotation)
 5. Submit changes into a **submit** branch and push it to your forked repo
-6. Create a merge request against _your_ master branch and assign it to _qtokar_
+6. Create a merge request against _your_ master branch and assign it to **xsevci11**, **ext-stefan.krajanec**, **xpanek1**, **xmasa**
 
 Your commit must pass Gitlab CI verification. To test this locally, run:
 ```
