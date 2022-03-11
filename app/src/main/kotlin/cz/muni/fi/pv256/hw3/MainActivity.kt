@@ -19,11 +19,7 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
         val increment = findViewById<Button>(R.id.increment)
         val textView = findViewById<TextView>(R.id.counter)
 
-        if (savedInstanceState != null) {
-            count = savedInstanceState.getInt(COUNT_KEY)
-        } else {
-            count = 0
-        }
+        count = savedInstanceState?.getInt(COUNT_KEY) ?: 0
         textView.text = count.toString()
 
         // TODO 3. Implement counter using TextView and the field `count`
