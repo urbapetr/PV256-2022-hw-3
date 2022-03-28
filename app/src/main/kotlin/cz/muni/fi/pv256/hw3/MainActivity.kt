@@ -7,7 +7,6 @@ import androidx.appcompat.app.AppCompatActivity
 import kotlin.properties.Delegates
 
 private const val COUNT_KEY = "COUNT_KEY"
-
 class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
     private var count by Delegates.notNull<Int>()
